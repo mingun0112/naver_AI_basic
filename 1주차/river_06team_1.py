@@ -8,3 +8,5 @@ def get_odd_num(num_list):
      return num_list
 
 print(get_odd_num(num_list))
+ 
+
