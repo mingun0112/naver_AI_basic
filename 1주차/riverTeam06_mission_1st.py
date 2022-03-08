@@ -15,3 +15,14 @@ def reverse_sentence(sentence):
     sentence=" ".join(sentenceList)
     return sentence
 print(reverse_sentence(sentence))
+
+score=[(100, 100),(95,90),(55,60),(75,80),(70,70)]
+
+def get_avg(score):
+    cnt=1
+    for i in score:
+        print(cnt,"번, 평균",sum(i)/2)
+        cnt+=1
+
+get_avg(score)
+
